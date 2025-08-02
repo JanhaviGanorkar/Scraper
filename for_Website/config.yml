@@ -1,0 +1,14 @@
+# url: "https://www.justdial.com/Indore/Hotel/nct-10104727"
+url: "https://www.justdial.com/Indore/Hotel/nct-10408936?trkid=277-remotecity&term="
+
+xpaths:
+  name: "//h3[contains(@class, 'lng_cont_name')]"
+  contact: "//span[contains(@class, 'contact-info')]"
+  address: "//ul[@class='jvsT']/address//div[contains(@class,'cont_fl_addr')]"
+
+# Additional patterns discovered
+additional_patterns:
+  address_alt: "//div[contains(@class, 'locatcity')]"
+  contact_alt: "//span[contains(@class, 'callcontent')]"
+  contact_structure: "/div/div[2]/div[2]/ul/li[1]/div/div/span/span"
+  address_structure: "/div/div[2]/ul[2]/address/div/div[2]"
